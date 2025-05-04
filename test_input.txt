@@ -1,0 +1,19 @@
+if (a >= b)
+{
+    return 0;
+} //check if a is greater than or equal to b
+
+/* This is a multi-line comment
+   to test our lexical analyzer */
+   
+int main() {
+    float x = 10.5;
+    int count = 0;
+    
+    while (count < 5) {
+        x = x + 1.5;
+        count++;
+    }
+    
+    return 0;
+}
