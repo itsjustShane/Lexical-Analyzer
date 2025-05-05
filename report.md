@@ -102,7 +102,7 @@ This function prints the tokens in the format required by the assignment.
 - Tokenization: O(k * m) where k is the number of tokens and m is the average token length
 - Output printing: O(n) where n is the number of tokens
 
-Overall time complexity: O(n) where n is the number of characters in the file.
+Overall time complexity: O(n) where n is the number of characters in the file.<br>
 Note: O(k*m) ~ O(n) 
 
 ### Space Complexity
