@@ -97,12 +97,13 @@ This function prints the tokens in the format required by the assignment.
 ## Complexity Analysis
 
 ### Time Complexity
-- Reading the file: O(n) where n is the file size
-- Comment removal: O(n) where n is the code size
-- Tokenization: O(n * m) where n is the number of words and m is the average word length
+- Reading the file: O(n) where n is the number of characters in the file
+- Comment removal: O(n) where n is the number of characters in the file
+- Tokenization: O(k * m) where k is the number of tokens and m is the average token length
 - Output printing: O(n) where n is the number of tokens
 
-Overall time complexity: O(n * m) where n is the file size and m is the average word length.
+Overall time complexity: O(n) where n is the number of characters in the file.
+Note: O(k*m) ~ O(n) 
 
 ### Space Complexity
 - Storage for code: O(n) where n is the file size
